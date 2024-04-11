@@ -23,7 +23,7 @@ int layout = 1;
 // 1. 32-Key Raw Mode (Default)
 // 2. 32-Key Logic Mode
 // 3. 16-Key Mode (NOT FUNCTIONING RN)
-int touchmode = 1;
+int touchmode = 2;
 
 // Enter Desired Function Key Layout (Disable Key will override Function Key 4 by default)
 // 1. F1-F4 (Default)
