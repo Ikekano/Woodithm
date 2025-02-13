@@ -19,7 +19,7 @@ Size of slider and wood is dependent on size of monitor that is being used. This
 ### Wiring:
 ![Wiring](./Docs/IMG_0038.jpg)
 
-More detailed wiring information can be found in IRsensor.h
+More detailed wiring information can be found in IRsensor.h and SetupConfig.h
 
 ## Parts List:
 - Main Board
@@ -37,7 +37,12 @@ More detailed wiring information can be found in IRsensor.h
 
 ## Required Libraries
 - Adafruit MPR121 1.1.3 **(This specific version)**
-- Adafruit Circuit Playground
+- Adafruit Circuit Playground 1.12.0
+- Adafruit BusIO 1.16.0
+- HID Project 2.8.4
+
+> [!Caution]
+> Versions of the libraries above are **strongly recommended** since the code is specifically configured using these versions. Using updated versions may cause to code to fail to compile.
 
 ## Optional Board Libraries
 - Seeeduino SAMD Boards 1.8.4 **(Later versions might not compile properly)**
