@@ -19,7 +19,7 @@ Size of slider and wood is dependent on size of monitor that is being used. This
 ### Wiring:
 ![Wiring](./Docs/IMG_0038.jpg)
 
-More detailed wiring information can be found in IRsensor.h and SetupConfig.h
+More detailed wiring information can be found in IRsensor.h, SetupConfig.h, and TouchSlider.h
 
 ## Parts List:
 - Main Board
